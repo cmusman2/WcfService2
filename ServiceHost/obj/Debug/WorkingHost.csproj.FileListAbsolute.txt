@@ -1,0 +1,3 @@
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceHost\obj\Debug\WorkingHost.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceHost\obj\Debug\ServiceHost.ProjectInstaller.resources
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceHost\obj\Debug\WorkingHost.csproj.GenerateResource.Cache

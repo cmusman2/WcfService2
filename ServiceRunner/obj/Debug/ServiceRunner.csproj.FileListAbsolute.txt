@@ -1,0 +1,11 @@
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceRunner\bin\Debug\ApplicationInsights.config
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceRunner\bin\Debug\ServiceRunner.exe.config
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceRunner\bin\Debug\ServiceRunner.exe
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceRunner\bin\Debug\ServiceRunner.pdb
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceRunner\bin\Debug\EntityFramework.dll
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceRunner\bin\Debug\WcfService2.dll
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceRunner\bin\Debug\WcfService2.pdb
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceRunner\bin\Debug\EntityFramework.xml
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceRunner\obj\Debug\ServiceRunner.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceRunner\obj\Debug\ServiceRunner.exe
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\ServiceRunner\obj\Debug\ServiceRunner.pdb

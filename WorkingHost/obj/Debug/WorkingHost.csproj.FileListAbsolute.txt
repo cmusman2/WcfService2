@@ -1,0 +1,7 @@
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingHost\bin\Debug\WorkingHost.exe.config
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingHost\bin\Debug\WorkingHost.exe
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingHost\bin\Debug\WorkingHost.pdb
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingHost\obj\Debug\WorkingHost.ProjectInstaller.resources
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingHost\obj\Debug\WorkingHost.csproj.GenerateResource.Cache
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingHost\obj\Debug\WorkingHost.exe
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingHost\obj\Debug\WorkingHost.pdb

@@ -1,0 +1,13 @@
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\bin\Debug\ApplicationInsights.config
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\bin\Debug\WorkingServiceContainer.exe.config
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\bin\Debug\WorkingServiceContainer.exe
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\bin\Debug\WorkingServiceContainer.pdb
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\bin\Debug\WcfService2.dll
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\bin\Debug\EntityFramework.dll
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\bin\Debug\WcfService2.pdb
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\bin\Debug\EntityFramework.xml
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\obj\Debug\WorkingServiceContainer.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\obj\Debug\WorkingServiceContainer.ProjectInstaller.resources
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\obj\Debug\WorkingServiceContainer.csproj.GenerateResource.Cache
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\obj\Debug\WorkingServiceContainer.exe
+C:\Users\Muhammad\documents\visual studio 2015\Projects\WcfService2\WorkingServiceContainer\obj\Debug\WorkingServiceContainer.pdb
