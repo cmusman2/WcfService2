@@ -31,10 +31,7 @@ namespace UnitTestProject1
             string test = "test user";
 
             Assert.AreEqual("test user", test);
-        }
-        
-
-
+        }       
 
         [TestMethod]
         public void TestMethod4()
