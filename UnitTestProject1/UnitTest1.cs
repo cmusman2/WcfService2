@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Threading.Tasks;
 
 namespace UnitTestProject1
 {
@@ -14,12 +15,12 @@ namespace UnitTestProject1
         }
 
         [TestMethod]
-        public async void TestMethod2()
+        public void TestMethod2()
         {
             string test = "test user";
 
             ServiceReference1.Service1Client service = new ServiceReference1.Service1Client();
-            ServiceReference1.AuthorResponse auth = await service.GetInfoAsync(test);
+            ServiceReference1.Auther auth =  service.GetInfo(test);
             
             Assert.AreEqual("test user", test);
         }
