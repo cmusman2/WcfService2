@@ -18,7 +18,6 @@ namespace WcfService2
     {
         public Guest[] adults { get; set; }
         public Guest[] kids { get; set; }
-
     }
 
 
