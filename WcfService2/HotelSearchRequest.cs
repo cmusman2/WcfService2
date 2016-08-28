@@ -11,6 +11,7 @@ namespace WcfService2
         public DateTime date { get; set; }
         public int nights { get; set; }
         public Party guests { get; set; }
+
     }
 
 
