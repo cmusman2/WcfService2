@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/WcfService2" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfService2" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8090/My_WebService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="Data">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataLabel" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Data" nillable="true" type="tns:Data" />
+  <xs:complexType name="ArrayOfData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Data" nillable="true" type="tns:Data" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfData" nillable="true" type="tns:ArrayOfData" />
+  <xs:complexType name="Auther">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Artical" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Auther" nillable="true" type="tns:Auther" />
+  <xs:complexType name="ExceptionHandelingInWCF">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ExceptionHandelingInWCF" nillable="true" type="tns:ExceptionHandelingInWCF" />
+  <xs:complexType name="HotelSearchRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="destination" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="guests" nillable="true" type="tns:Party" />
+      <xs:element minOccurs="0" name="nights" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="HotelSearchRequest" nillable="true" type="tns:HotelSearchRequest" />
+  <xs:complexType name="Party">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="adults" nillable="true" type="tns:ArrayOfGuest" />
+      <xs:element minOccurs="0" name="kids" nillable="true" type="tns:ArrayOfGuest" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Party" nillable="true" type="tns:Party" />
+  <xs:complexType name="ArrayOfGuest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Guest" nillable="true" type="tns:Guest" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGuest" nillable="true" type="tns:ArrayOfGuest" />
+  <xs:complexType name="Guest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Age" type="xs:int" />
+      <xs:element minOccurs="0" name="GuestType" type="ser:char" />
+      <xs:element minOccurs="0" name="Number" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Guest" nillable="true" type="tns:Guest" />
+  <xs:complexType name="ArrayOfhotelsummary">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="hotelsummary" nillable="true" type="tns:hotelsummary" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfhotelsummary" nillable="true" type="tns:ArrayOfhotelsummary" />
+  <xs:complexType name="hotelsummary">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="address1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="city" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="countrycode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="hotelid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="locationdescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lowrate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="postalcode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ratecurrencycode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="shortdescription" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="thumbnailurl" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tripadvisorratingurl" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="hotelsummary" nillable="true" type="tns:hotelsummary" />
+</xs:schema>

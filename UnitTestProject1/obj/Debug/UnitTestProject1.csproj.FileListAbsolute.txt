@@ -1,0 +1,6 @@
+C:\net\WcfService2\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\net\WcfService2\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\net\WcfService2\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\net\WcfService2\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\net\WcfService2\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\net\WcfService2\UnitTestProject1\bin\Debug\UnitTestProject1.dll.config
