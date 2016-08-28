@@ -24,9 +24,11 @@ namespace WcfService2
 
     public class Guest
     {
+
         public char GuestType { get; set; }
         public int Number { get; set; }
         public int Age { get; set; }
+
     }
 
 }
