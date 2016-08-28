@@ -30,12 +30,6 @@ namespace UnitTestProject1
         {
             string test = "test user";
 
-            ServiceReference1.Service1Client service = new ServiceReference1.Service1Client();
-            ServiceReference1.Data data= new ServiceReference1.Data();
-            data.DataLabel = "test user";
-
-             service.AddData(data);
-
             Assert.AreEqual("test user", test);
         }
     }
