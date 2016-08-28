@@ -23,6 +23,7 @@ namespace WcfService2
 
     }
 
+
     public class Guest
     {
         public char GuestType { get; set; }

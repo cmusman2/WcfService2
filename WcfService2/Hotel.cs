@@ -14,5 +14,6 @@ namespace WcfService2
         public String postalCode { get; set; }
         public String LowRate { get; set; }
         public String ImageUrl { get; set; }
+
     }
 }

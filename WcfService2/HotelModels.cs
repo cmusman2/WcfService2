@@ -17,7 +17,6 @@ namespace WcfService2
         public async static Task<List<hotelsummary>> GetData(String city, DateTime sdate, DateTime edate)
         {
 
-
             using (var client = new System.Net.Http.HttpClient())
             {
 
